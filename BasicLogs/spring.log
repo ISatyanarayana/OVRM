@@ -1,0 +1,60 @@
+2023-11-01 16:55:53,158 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Starting VehicleRentalManagementApplication using Java 20.0.2 on Rajus-Laptop with PID 17808 (D:\project\vehicle-rental-management\target\classes started by rajui in D:\project\vehicle-rental-management)
+2023-11-01 16:55:53,158 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-01 16:55:53,395 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-01 16:55:53,395 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-11-01 16:55:53,413 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-01 16:55:53,440 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-01 16:55:53,443 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-11-01 16:55:53,588 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-11-01 16:55:53,589 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-01 16:55:53,596 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlineVehicleRentalManagement.entity.User
+2023-11-01 16:55:53,710 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-01 16:55:53,840 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-01 16:55:54,089 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-11-01 16:55:54,089 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-11-01 16:55:54,093 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-11-01 16:55:54,096 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Started VehicleRentalManagementApplication in 0.983 seconds (JVM running for 1205.929)
+2023-11-01 16:57:06,309 INFO org.apache.catalina.core.StandardService [Thread-11] Stopping service [Tomcat]
+2023-11-01 16:57:06,320 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-11-01 16:57:06,326 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-11-01 16:57:08,665 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Starting VehicleRentalManagementApplication using Java 20.0.2 on Rajus-Laptop with PID 17808 (D:\project\vehicle-rental-management\target\classes started by rajui in D:\project\vehicle-rental-management)
+2023-11-01 16:57:08,666 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-01 16:57:08,953 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-01 16:57:08,954 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-11-01 16:57:08,975 INFO org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-01 16:57:09,007 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-01 16:57:09,016 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-11-01 16:57:09,325 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-11-01 16:57:09,327 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-01 16:57:09,334 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlineVehicleRentalManagement.entity.User
+2023-11-01 16:57:09,472 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-01 16:57:09,582 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-01 16:57:09,859 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-11-01 16:57:09,860 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-11-01 16:57:09,863 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-11-01 16:57:09,867 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Started VehicleRentalManagementApplication in 1.22 seconds (JVM running for 1281.701)
+2023-11-01 16:57:26,556 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(25)-127.0.0.1] Stopping service [Tomcat]
+2023-11-01 16:57:26,561 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(25)-127.0.0.1] HikariPool-4 - Shutdown initiated...
+2023-11-01 16:57:26,565 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(25)-127.0.0.1] HikariPool-4 - Shutdown completed.
+2023-11-01 16:57:54,033 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Starting VehicleRentalManagementApplication using Java 20.0.2 on Rajus-Laptop with PID 3868 (D:\project\vehicle-rental-management\target\classes started by rajui in D:\project\vehicle-rental-management)
+2023-11-01 16:57:54,034 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-01 16:57:55,647 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-01 16:57:55,647 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-11-01 16:57:55,736 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-01 16:57:55,929 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-01 16:57:55,997 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-01 16:57:56,186 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-01 16:57:56,313 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-11-01 16:57:56,654 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-11-01 16:57:56,684 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-01 16:57:56,898 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlineVehicleRentalManagement.entity.User
+2023-11-01 16:57:57,712 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-01 16:57:58,133 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-01 16:57:58,747 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-11-01 16:57:58,772 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-11-01 16:57:58,803 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-11-01 16:57:58,826 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Started VehicleRentalManagementApplication in 5.333 seconds (JVM running for 6.342)
+2023-11-01 16:57:58,832 INFO VehicleRentalManagementApplication.class [restartedMain] OVRM application is running....
+2023-11-01 16:59:00,360 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(3)-127.0.0.1] Stopping service [Tomcat]
+2023-11-01 16:59:00,377 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-11-01 16:59:00,383 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown completed.

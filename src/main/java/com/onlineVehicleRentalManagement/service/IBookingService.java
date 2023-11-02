@@ -1,22 +1,22 @@
 package com.onlineVehicleRentalManagement.service;
 
+import java.text.ParseException;
 import java.time.LocalDate;
 import java.util.List;
 
 import com.onlineVehicleRentalManagement.entity.Booking;
 import com.onlineVehicleRentalManagement.entity.Customer;
 import com.onlineVehicleRentalManagement.entity.Vehicle;
+import com.onlineVehicleRentalManagement.exceptions.BookingAlreadyExistsException;
+import com.onlineVehicleRentalManagement.exceptions.ResourceNotFoundException;
 
 public interface IBookingService {
 
-	public Booking addBooking(Booking b);
-	public Booking updateBooking(Booking b);
-	public Booking cancelBooking(Booking b);
-	public Booking viewBooking(Booking b);
-	public List<Booking> viewAllBookings(Vehicle v);
-	public List<Booking> viewAllBookings(Customer customer);
-	public List<Booking> viewAllBookingByDate(LocalDate bdate);
-	
-	
-	
+	public Booking addBooking(Booking b,LocalDate fromDate,LocalDate toDate) throws BookingAlreadyExistsException;
+	public Booking updateBooking(Booking b) throws ResourceNotFoundException;
+	public Booking cancelBooking(Booking b) throws ResourceNotFoundException;
+	public Booking viewBooking(Booking b) throws ResourceNotFoundException;
+	public List<Booking> viewAllBookings(Vehicle v) throws ResourceNotFoundException;
+	public List<Booking> viewAllBookings(Customer customer) throws ResourceNotFoundException;
+	public List<Booking> viewAllBookingByDate(LocalDate bdate) throws ParseException, ResourceNotFoundException;
 }

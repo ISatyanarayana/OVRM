@@ -1,6 +1,8 @@
 package com.onlineVehicleRentalManagement.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -23,7 +25,7 @@ public class Vehicle {
 	
 	private String vehicleNumber;
 	
-	@OneToOne
+	@OneToOne(cascade = CascadeType.MERGE,fetch = FetchType.LAZY)
 	private Driver driver;
 	
 	private String type;

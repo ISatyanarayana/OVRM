@@ -12,10 +12,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Customer {
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long customerId; 
@@ -29,4 +26,6 @@ public class Customer {
 	public long mobileNumber;
 	
 	public String address;
+	
+	
 }

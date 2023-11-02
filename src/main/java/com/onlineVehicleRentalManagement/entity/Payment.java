@@ -2,7 +2,9 @@ package com.onlineVehicleRentalManagement.entity;
 
 import java.time.LocalDate;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -25,7 +27,7 @@ public class Payment {
 		
 		private LocalDate paymentDate;
 		
-		@OneToOne
+		@OneToOne(cascade = CascadeType.MERGE,fetch = FetchType.LAZY)
 		private Booking booking;
 		
 		private String paymentStatus;

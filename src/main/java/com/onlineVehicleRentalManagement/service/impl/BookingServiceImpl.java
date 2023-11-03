@@ -28,7 +28,7 @@ public class BookingServiceImpl implements IBookingService{
 	private IBookingRepository bookingRepository;
 	
 	
-	private ICustomerRepository customerRepository;
+	//private ICustomerRepository customerRepository;
 	
 	@Override
 	public Booking addBooking(Booking b,LocalDate fromDate,LocalDate toDate) throws BookingAlreadyExistsException {
@@ -70,9 +70,9 @@ public class BookingServiceImpl implements IBookingService{
 	}
 
 	@Override
-	public Booking viewBooking(Booking b) throws ResourceNotFoundException {
-		bookingRepository.findById(b.getBookingId())
-		.orElseThrow(() -> new ResourceNotFoundException("Booking not found with id :"+b.getBookingId()));
+	public Booking viewBooking(long bookingId) throws ResourceNotFoundException {
+		Booking b=bookingRepository.findById(bookingId)
+		.orElseThrow(() -> new ResourceNotFoundException("Booking not found with id :"+bookingId));
 		return b;
 	}
 
@@ -110,5 +110,5 @@ public class BookingServiceImpl implements IBookingService{
 		else
 			return bd;
 	}
-
+	
 }

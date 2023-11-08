@@ -1,0 +1,27 @@
+2023-11-03 10:04:02,246 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h56m9s845ms780µs900ns).
+2023-11-03 10:08:30,212 WARN javax.management.remote.misc [RMI TCP Connection(7)-127.0.0.1] The server has decided to close this client connection.
+2023-11-03 12:15:27,961 INFO org.apache.catalina.core.StandardService [Thread-4] Stopping service [Tomcat]
+2023-11-03 12:15:28,038 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-4] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-03 12:15:28,426 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2023-11-03 12:15:28,485 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
+2023-11-03 12:15:29,195 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Starting VehicleRentalManagementApplication using Java 20.0.2 on Rajus-Laptop with PID 28020 (D:\project\OVRM\target\classes started by rajui in D:\project\OVRM)
+2023-11-03 12:15:29,195 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-03 12:15:30,486 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-03 12:15:30,488 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-11-03 12:15:30,532 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-03 12:15:30,615 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-03 12:15:30,629 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-11-03 12:15:30,979 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-11-03 12:15:30,980 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-03 12:15:31,010 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlineVehicleRentalManagement.entity.User
+2023-11-03 12:15:31,474 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-03 12:15:32,283 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-03 12:15:32,684 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-11-03 12:15:32,686 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-11-03 12:15:32,694 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-11-03 12:15:32,795 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: viewAllBookingsUsingGET_1
+2023-11-03 12:15:32,829 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Started VehicleRentalManagementApplication in 3.78 seconds (JVM running for 47263.127)
+2023-11-03 12:15:32,834 INFO VehicleRentalManagementApplication.class [restartedMain] OVRM application is running....
+2023-11-03 12:17:36,038 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(139)-127.0.0.1] Stopping service [Tomcat]
+2023-11-03 12:17:36,052 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(139)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2023-11-03 12:17:36,057 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(139)-127.0.0.1] HikariPool-2 - Shutdown completed.

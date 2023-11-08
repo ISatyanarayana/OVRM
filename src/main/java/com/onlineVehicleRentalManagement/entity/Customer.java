@@ -18,10 +18,6 @@ import lombok.NoArgsConstructor;
 @PrimaryKeyJoinColumn(name="customerId")
 public class Customer extends User {
 	
-//	@Id
-//	@GeneratedValue(strategy = GenerationType.AUTO)
-//	private long customerId; 
-	
 	public String firstName;
 	
 	public String lastName;

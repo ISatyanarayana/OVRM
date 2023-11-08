@@ -11,7 +11,7 @@ import com.onlineVehicleRentalManagement.entity.Customer;
 @Repository
 public interface ICustomerRepository extends JpaRepository<Customer, Long> {
 
-	@Query(value = "select c from Customer c where c.customerId=?1")
+	@Query(value = "select c from Customer c where c.userId=?1")
 	public Optional<Customer> getCustomerById(Long customerId);
 
 }

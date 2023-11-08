@@ -77,9 +77,9 @@ public class BookingServiceImpl implements IBookingService{
 	}
 
 	@Override
-	public List<Booking> viewAllBookings(Vehicle v) throws ResourceNotFoundException {
+	public List<Booking> viewAllBookings(Vehicle v) throws ResourceNotFoundException { //vehicle
 		List<Booking> collect = bookingRepository.findAll().stream()
-				.filter(a -> a.getVehicle().equals(v)).collect(Collectors.toList());
+				.filter(a -> a.getVehicle().getVehicleNumber().equals(v.getVehicleNumber())).collect(Collectors.toList());
 		if (collect.isEmpty())
 			throw new ResourceNotFoundException("Bookings not found for the vehicle number :"
 		+v.getVehicleNumber());
@@ -91,10 +91,10 @@ public class BookingServiceImpl implements IBookingService{
 	public List<Booking> viewAllBookings(Customer customer) throws ResourceNotFoundException {
 		
 		 List<Booking> collect1 = bookingRepository.findAll().stream()
-			.filter(a -> a.getCustomer().equals(customer)).collect(Collectors.toList());
+			.filter(a -> a.getCustomer().getUserId()==customer.getUserId()).collect(Collectors.toList());
 		 if (collect1.isEmpty())
 				throw new ResourceNotFoundException("Bookings not found for the Customer with id :"
-			+customer.getCustomerId());
+			+customer.getUserId());
 			else
 				return collect1;
 	}

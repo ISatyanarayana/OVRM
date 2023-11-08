@@ -11,6 +11,6 @@ public interface ICustomerService {
 	public Customer removeCustomer(Long customerId) throws ResourceNotFoundException;
 	public Customer updateCustomer(Customer customer) throws ResourceNotFoundException;
 	public Customer viewCustomer(Long customerId) throws ResourceNotFoundException;
-	public List<Customer> viewAllCustomer(String vtype);
-	public List<Customer> viewAllCustomersByLocation(Customer customer);
+	public List<Customer> viewAllCustomer() throws ResourceNotFoundException;
+	public List<Customer> viewAllCustomersByLocation(String address) throws ResourceNotFoundException;
 }

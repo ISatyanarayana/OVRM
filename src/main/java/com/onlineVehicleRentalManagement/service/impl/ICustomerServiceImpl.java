@@ -22,6 +22,7 @@ public class ICustomerServiceImpl implements ICustomerService {
 	@Override
 	public Customer addCustomer(Customer customer) throws CustomerAlreadyExistsException {
 		Optional<Customer> c = customerRepository.getCustomerById(customer.getUserId());
+
 		if (c.isPresent()) {
 			throw new CustomerAlreadyExistsException("Customer already present with Id : " + customer.getUserId());
 
@@ -39,7 +40,9 @@ public class ICustomerServiceImpl implements ICustomerService {
 
 	@Override
 	public Customer updateCustomer(Customer customer) throws ResourceNotFoundException {
+
 		Customer c = customerRepository.getCustomerById(customer.getUserId())
+
 				.orElseThrow(() -> new ResourceNotFoundException("Customer Not Available"));
 		c.setAddress(customer.getAddress());
 		c.setUserId(customer.getUserId());

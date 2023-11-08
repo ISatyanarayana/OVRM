@@ -15,10 +15,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@PrimaryKeyJoinColumn(name = "customerId")
+@PrimaryKeyJoinColumn(name="customerId")
 public class Customer extends User {
-	
-	
 	
 	public String firstName;
 	

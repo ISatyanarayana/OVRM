@@ -72,9 +72,11 @@ public class BookingServiceImpl implements IBookingService {
 	}
 
 	@Override
+
 	public List<Booking> viewAllBookings(Vehicle v) throws ResourceNotFoundException {
 		List<Booking> collect = bookingRepository.findAll().stream().filter(a -> a.getVehicle().equals(v))
 				.collect(Collectors.toList());
+
 		if (collect.isEmpty())
 			throw new ResourceNotFoundException("Bookings not found for the vehicle number :" + v.getVehicleNumber());
 		else
@@ -84,12 +86,14 @@ public class BookingServiceImpl implements IBookingService {
 	@Override
 	public List<Booking> viewAllBookings(Customer customer) throws ResourceNotFoundException {
 
+
 		List<Booking> collect1 = bookingRepository.findAll().stream().filter(a -> a.getCustomer().equals(customer))
 				.collect(Collectors.toList());
 		if (collect1.isEmpty())
 			throw new ResourceNotFoundException("Bookings not found for the Customer with id :" + customer.getUserId());
 		else
 			return collect1;
+
 	}
 
 	@Override

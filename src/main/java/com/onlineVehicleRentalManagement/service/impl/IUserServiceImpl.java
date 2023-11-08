@@ -50,3 +50,4 @@ public class IUserServiceImpl implements IUserService {
 			throw new Exception("Invalid credentials!!");
 	}
 }
+

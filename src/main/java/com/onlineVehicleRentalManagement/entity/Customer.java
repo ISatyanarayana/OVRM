@@ -1,9 +1,6 @@
 package com.onlineVehicleRentalManagement.entity;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.PrimaryKeyJoinColumn;
 
 import lombok.AllArgsConstructor;
@@ -17,10 +14,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @PrimaryKeyJoinColumn(name="customerId")
 public class Customer extends User {
-	
-//	@Id
-//	@GeneratedValue(strategy = GenerationType.AUTO)
-//	private long customerId; 
 	
 	public String firstName;
 	

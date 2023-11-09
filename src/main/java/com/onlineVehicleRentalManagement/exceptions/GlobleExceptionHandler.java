@@ -44,4 +44,12 @@ public class GlobleExceptionHandler {
 		ErrorDetails error = new ErrorDetails(new Date(), ex.getMessage(), request.getDescription(false));
 		return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
 	}
+
+	@ExceptionHandler(InvalidCredentials.class)
+	public ResponseEntity<?> handleMethodArgumentException(InvalidCredentials ex, WebRequest request) {
+
+		ErrorDetails error = new ErrorDetails(new Date(), ex.getMessage(), request.getDescription(false));
+		return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
+	}
+	
 }

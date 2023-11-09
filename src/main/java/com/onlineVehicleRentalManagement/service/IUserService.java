@@ -6,8 +6,8 @@ import com.onlineVehicleRentalManagement.exceptions.UserAlreadyExistsException;
 
 public interface IUserService {
 
+
 	public User validateUser(long userId,String password) throws Exception;
 	public User addUser(User user) throws UserAlreadyExistsException;
-	public User removeUser(User user) throws ResourceNotFoundException;
-	//public User signOut(User user);
+	public User removeUser(long userId) throws ResourceNotFoundException;
 }

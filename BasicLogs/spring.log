@@ -16,3 +16,5 @@
 2023-11-14 10:48:25,115 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
 2023-11-14 10:48:25,135 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
 2023-11-14 10:48:25,157 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-11-14 10:48:25,324 INFO com.onlineVehicleRentalManagement.VehicleRentalManagementApplication [restartedMain] Started VehicleRentalManagementApplication in 6.15 seconds (JVM running for 7.312)
+2023-11-14 10:48:25,330 INFO VehicleRentalManagementApplication.class [restartedMain] OVRM application is running....
